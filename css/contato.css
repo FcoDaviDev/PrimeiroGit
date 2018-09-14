@@ -1,0 +1,72 @@
+.formulario{
+	margin-top: 90px;
+	/*background: #320038; */
+	background: #200015;
+	color: #fff;
+	padding: 40px;
+	
+}
+
+.formulario h2{
+	text-align: center;
+}
+.formulario h2:after{
+	display: block;
+	content: "";
+	width: 100px;
+	height: 3px;
+	background: #0040ff;
+	margin: 0 auto;
+	margin-top: 8px;
+
+}
+
+.formulario form{
+	border: 3px, solid, red;
+}
+
+.formu{
+	margin-left: 360px;
+
+}
+
+label{
+	
+	font-size: 18px;
+	display: block;
+	margin-bottom: 6px;
+	text-align: left;
+
+}
+
+textarea{
+	max-width: 200px;
+	height: 120px;
+	max-height: 140px;
+}
+
+input, textarea{
+	width: 260px;
+	max-width: 260px;
+	background: #200015;
+	margin-bottom: 20px;
+	padding: 7px;
+	color: #fff;
+	font-size: 18px;
+	border: 6px, solid, #fff;
+	
+}
+
+
+input:focus, textarea:focus{
+	border-color: #0040ff;
+	
+}
+
+input[name = "arquivo"]{
+	width: 440px;
+	margin: 0 auto;
+	max-width: 440px;
+	
+
+}
